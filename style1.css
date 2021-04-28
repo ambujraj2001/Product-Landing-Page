@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color:#24252A ;
+}
+.h1h{
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 10px;
+    font-size: 50px;
+}
+.fg{
+    margin-top: 50px;
+}
+.h1ha{
+    text-align: left;
+    font-family: 'Philosopher', sans-serif;
+    margin-left: 20px;
+}
+.a1i{
+    float: right;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.p1{text-align: left;
+    
+    margin-left: 20px;
+    font-size: large;
+    margin-right: 10px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: normal;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li,a,button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+      text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding:30px 10%;
+
+}
+.logo{
+    cursor: pointer;
+}
+.navl{
+ list-style: none;   
+}
+.navl li{
+    display: inline-block;
+    padding: 0px 20px;
+   }
+   
+   .navl li a:hover{
+       color: aqua;
+   }
+   button{
+       padding: 9px 25px;
+       background-color: rgba(0,136,169,1);
+       border:none;
+       border-radius: 50px;
+       cursor:pointer;
+
+   }
+   button:hover{
+    color:yellow
+}
